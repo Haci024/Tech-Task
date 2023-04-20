@@ -1,9 +1,10 @@
 function changeCategory(category) {
-    var imageElement = document.getElementById("#myImage");
+    var imageElement = document.getElementById("myImage");
     
     switch (category) {
         case 1:
             imageElement.style.backgroundImage = "url('./images/layer-28@2x.png')"; 
+            console.log("Salam")
             break;
         case 2:
             imageElement.style.backgroundImage = "url('./images/layer-27@2x.png')"; 
